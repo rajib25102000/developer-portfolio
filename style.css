@@ -12,12 +12,10 @@ h1 {
    color: rgb(186, 186, 7);
 }
 
-button {
-   color: red;
-}
 
-section {
+.top-banner {
    display: flex;
+
 }
 
 .half-width {
@@ -31,11 +29,11 @@ section {
 
 }
 
-a {
+.link-button {
    text-decoration: none;
    background-color: orange;
    padding: 10px 40px;
-   border-radius: 5px;
+   border-radius: 10px;
    background-image: linear-gradient(yellow, tomato);
    color: white;
    font-weight: 400px;
@@ -44,4 +42,22 @@ a {
 .top-banner {
    background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
+}
+
+.down-benner {
+   display: flex;
+   margin-top: 100px;
+}
+
+.down-span {
+   color: yellowgreen;
+
+   font-size: 30px;
+
+}
+
+.down-benner {
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
 }
