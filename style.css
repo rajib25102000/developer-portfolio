@@ -6,11 +6,16 @@ h1 {
                     font-size: 50px;
 }
 
+h2 {
+                    font-size: 30px;
+                    color: blueviolet;
+}
+
 .span-color {
                     color: orange;
 }
 
-section {
+.bangla-vai {
                     display: flex;
 }
 
@@ -42,4 +47,32 @@ section {
                     background-repeat: no-repeat;
                     background-position: right;
 
+}
+
+.Exprince {
+                    background-image: url(images/exp-bg.png);
+                    background-repeat: no-repeat;
+                    background-position: left;
+}
+
+.experience-item {
+                    width: 50%;
+                    box-shadow: 5px 5px 20px grey;
+                    margin: 5%;
+                    padding: 5%;
+                    border-radius: 10px;
+
+}
+
+#learning-Web-Developer {
+                    border-left: 10px solid tomato;
+}
+
+#Pro-Web-Developer {
+                    border-left: 10px solid blue;
+}
+
+footer p {
+                    text-align: center;
+                    font-weight: 700;
 }
