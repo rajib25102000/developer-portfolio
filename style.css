@@ -1,63 +1,33 @@
 body {
-   font-family: 'Roboto', sans-serif;
-   margin: 0;
+                    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-   font-size: 50px;
-   color: rgb(8, 8, 8);
+                    font-size: 50px;
 }
 
 .span-color {
-   color: rgb(186, 186, 7);
+                    color: orange;
 }
 
-
-.top-banner {
-   display: flex;
-
+section {
+                    display: flex;
 }
 
 .half-width {
-   width: 50%;
-   padding-left: 2%;
-
+                    width: 50%;
 }
 
 .half-width img {
-   width: 80%;
-
+                    width: 70%;
 }
 
 .link-button {
-   text-decoration: none;
-   background-color: orange;
-   padding: 10px 40px;
-   border-radius: 10px;
-   background-image: linear-gradient(yellow, tomato);
-   color: white;
-   font-weight: 400px;
-}
+                    text-decoration: none;
+                    background-image: linear-gradient(yellow, tomato);
+                    padding: 10px 40px;
+                    border-radius: 5px;
+                    color: white;
+                    font-weight: 700;
 
-.top-banner {
-   background-image: url(images/top-banner.png);
-   background-repeat: no-repeat;
-}
-
-.down-benner {
-   display: flex;
-   margin-top: 100px;
-}
-
-.down-span {
-   color: yellowgreen;
-
-   font-size: 30px;
-
-}
-
-.down-benner {
-   background-image: url(images/dream-bg.png);
-   background-repeat: no-repeat;
-   background-position: right;
 }
